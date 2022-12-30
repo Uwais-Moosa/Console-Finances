@@ -1,10 +1,20 @@
 # Unit 4 Challenge: Console Finances
 
-## Overview
- 
-In this challenge, you'll be using the concepts you've learned to complete the required activity. This activity presents a real-world situation in which your newfound JavaScript skills will come in handy. You are tasked with creating code for analyzing the financial records of a company. You have been provided with a financial dataset in the `starter/index.js` file.
+This Trilogy Challenge consists in creating code for analyzing the financial records of a fictional company.
+
+## Description
+
+This challenge is my Portfolio written in HTML and Javascript, This is one of Trilogy/Edx Challenges
+
+## Table of Contents
+* [Instructions](#instructions)
+* [Marking](#marking)
+* [Deployment](#deployment)
+
 
 ## Instructions
+
+### The Task
 
 1. Create a new GitHub repo called `Console-Finances`. Then, clone it to your computer.
 
@@ -38,25 +48,20 @@ When you open your code in the browser your resulting analysis should look simil
   Greatest Decrease in Profits: Sep-2013 ($-2196167)
   ```
 
-Your final code should print the analysis to the console.
+## Marking
 
-**Hints:**
+This challenge is graded based on the following criteria: 
 
-* You will need to do some research on your own for this project!
+### Grading Requirements
 
-* Remember, in order to combine strings and variables in the console you will need to use **concatenation**.
-
-* How do you only print to the nearest 100th in JavaScript?
-
-## Grading Requirements
-
+This challenge is graded based on the following criteria: 
 This homework is graded based on the following criteria: 
 
-### Technical Acceptance Criteria: 40%
+#### Technical Acceptance Criteria: 40%
 
 * Satisfies all of the above acceptance criteria.
 
-### Deployment: 32%
+#### Deployment: 32%
 
 * Application deployed at live URL.
 
@@ -66,7 +71,7 @@ This homework is graded based on the following criteria:
 
 * GitHub repository contains application code.
 
-### Repository Quality: 12%
+#### Repository Quality: 12%
 
 * Repository has a unique name.
 
@@ -78,7 +83,7 @@ This homework is graded based on the following criteria:
 
 * Repository contains quality readme with description, screenshot, link to deployed application.
 
-## Review
+### Review
 
 You are required to submit BOTH of the following for review:
 
@@ -86,9 +91,6 @@ You are required to submit BOTH of the following for review:
 
 * The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
 
----
+## Deployment
 
-## Copyright
-
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
-
+Here is a quick link to the deployed page: https://uwais-moosa.github.io/portfolio-Uwais/
