@@ -86,3 +86,41 @@ var finances = [
 ['Jan-2017', 138230],
 ['Feb-2017', 671099]
 ];
+
+// Total number of months
+let totalMonths = finances.length;
+let months = [];
+
+// Total sum
+let total = 0;
+    for (let i = 0; i < totalMonths; i++){
+        total += finances [i][1];
+    };
+
+// Total changes from one month to the other + average calculation
+let changes = [];
+    for (let j = 1; j < finances.length; j++) {
+      let difference = (finances[j][1] - finances[j-1][1]);
+      changes.push(difference)
+      months.push([finances [j][0], difference]);
+    }
+
+let sum = 0;
+changes.forEach((num) => { sum += num });
+let averageChange = sum / changes.length;
+
+// Greatest Increase and Decrease
+let greatestIncrease = changes => Math.max[changes.length-1];
+let greatestMonth = months[greatestIncrease] ;
+let greatestDecrease = changes[0];
+let lowestMonth = months[greatestDecrease];
+
+//console.log
+
+console.log(`Financial Analysis
+    ----------------------------
+    Total Months: ${totalMonths}
+    Total: $ ${total}
+    Average  Change: $ ${averageChange}
+    Greatest Increase in Profits: ${greatestMonth} ${greatestIncrease}
+    Greatest Decrease in Profits: ${lowestMonth} ${greatestDecrease}`);
