@@ -93,4 +93,4 @@ You are required to submit BOTH of the following for review:
 
 ## Deployment
 
-Here is a quick link to the deployed page: https://uwais-moosa.github.io/portfolio-Uwais/
+Here is a quick link to the deployed page: https://uwais-moosa.github.io/Console-Finances/
