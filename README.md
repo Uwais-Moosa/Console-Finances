@@ -1,10 +1,10 @@
 # Console Finances
 
-This Challenge consists in creating code for analyzing the financial records of a fictional company.
+This program consists in creating code for analyzing the financial records of a fictional company.
 
 ## Description
 
-This challenge is a Console-Finance program written in HTML, CSS and Javascript.
+This is a Console-Finance program written in HTML, CSS and Javascript.
 
 ## Table of Contents
 * [Instructions](#instructions)
